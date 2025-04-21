@@ -174,3 +174,7 @@ Port 4500 is in use by another program. Either identify and stop that program, o
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 536-174-669
+ * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 680-729-261
