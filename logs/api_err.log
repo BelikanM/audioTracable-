@@ -178,3 +178,330 @@ Port 4500 is in use by another program. Either identify and stop that program, o
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 680-729-261
+ * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+2025-04-21 22:38:20,096 - __main__ - INFO - Loading Wav2Vec 2.0 model...
+Some weights of Wav2Vec2ForSequenceClassification were not initialized from the model checkpoint at facebook/wav2vec2-base-960h and are newly initialized: ['classifier.bias', 'classifier.weight', 'projector.bias', 'projector.weight', 'wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2025-04-21 22:40:19,453 - __main__ - INFO - Loading AST model...
+/usr/local/lib/python3.8/dist-packages/transformers/audio_utils.py:297: UserWarning: At least one mel filter has all zero values. The value for `num_mel_filters` (128) may be set too high. Or, the value for `num_frequency_bins` (256) may be set too low.
+  warnings.warn(
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-04-21 22:40:22,149 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-04-21 22:42:05,767 - __main__ - INFO - All models loaded successfully!
+2025-04-21 22:42:06,212 - werkzeug - WARNING -  * Debugger is active!
+2025-04-21 22:42:06,240 - werkzeug - INFO -  * Debugger PIN: 231-013-747
+2025-04-22 14:09:48,178 - werkzeug - INFO -  * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+/usr/local/lib/python3.8/dist-packages/transformers/audio_utils.py:297: UserWarning: At least one mel filter has all zero values. The value for `num_mel_filters` (128) may be set too high. Or, the value for `num_frequency_bins` (256) may be set too low.
+  warnings.warn(
+ * Debugger is active!
+ * Debugger PIN: 590-454-220
+ * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 125-019-879
+ * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/root/audio/audio.py", line 10, in <module>
+    import librosa.display
+  File "/usr/local/lib/python3.8/dist-packages/librosa/display.py", line 44, in <module>
+    from matplotlib import colormaps as mcm
+ModuleNotFoundError: No module named 'matplotlib'
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5400
+ * Running on http://10.50.30.25:5400
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 179-206-844
+ * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 973-155-249
+ * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 999-779-798
+ * Detected change in '/root/audio/audio.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-654-732
